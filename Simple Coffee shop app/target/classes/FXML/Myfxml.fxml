@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment = "CENTER" xmlns:fx="http://javafx.com/fxml/1" styleClass="vbox" fx:controller = "MyController"
+			fx:id = "root">
+	<!-- TODO Add Nodes -->
+	
+	<Text text = "* * Click button to start * *"></Text>
+	
+	<Button fx:id = "RegCoffee" text = "Regular coffee" onAction = "#makeRegCoffee"/>
+	
+
+</VBox>
+
